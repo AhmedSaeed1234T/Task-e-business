@@ -1,4 +1,5 @@
 E-Business API Project
+
 📋 Overview
 This project is a simple RESTful API built with Node.js, Express.js, and MongoDB Atlas, designed for managing students and doctors' data online.
 The project was created for the E-Business course assignment.
@@ -14,11 +15,13 @@ Update a doctor's name.
 Retrieve all data (students and doctors).
 Delete all students.
 Delete all doctors.
+
 🛠️ Technologies Used
 Node.js
 Express.js
 MongoDB Atlas
 Mongoose
+
 📂 Installation
 # 1. Clone the repository
 git clone <repository-url>
@@ -34,6 +37,7 @@ node index.js
 The server will run at:
 http://localhost:3000
 
+
 📚 API Endpoints
 Method	Endpoint	Description
 POST	/addStudentHardcoded	Add a hardcoded student.
@@ -47,6 +51,8 @@ GET	/allData	Retrieve all students and doctors.
 DELETE	/deleteAllStudents	Delete all students.
 DELETE	/deleteAllDoctors	Delete all doctors.
 
+
+
 🧑‍💻 Contributors
 Ahmed Darawish
 Ahmed Ramadan
@@ -56,6 +62,8 @@ Ahmed Fouad
 Abdelrahman Abdallah
 Ahmed Eldeep
 Ahmed Islam
+
+
 📌 Notes
 Ensure you have a stable internet connection to connect to MongoDB Atlas.
 Make sure the MongoDB URI is valid and updated in the code.
