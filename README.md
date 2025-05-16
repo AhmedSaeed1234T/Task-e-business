@@ -46,6 +46,7 @@ PUT	/updateDoctor?oldName=xxx&newName=yyy	Update a doctor's name.
 GET	/allData	Retrieve all students and doctors.
 DELETE	/deleteAllStudents	Delete all students.
 DELETE	/deleteAllDoctors	Delete all doctors.
+
 🧑‍💻 Contributors
 Ahmed Darawish
 Ahmed Ramadan
